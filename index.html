@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Hotel - Luxury Accommodations</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">GRAND HOTEL</a></h1>
+                <p>Since 1925</p>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms.html">Rooms & Suites</a></li>
+                    <li><a href="dining.html">Dining</a></li>
+                    <li><a href="amenities.html">Amenities</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+            <a href="rooms.html" class="book-btn">Book Now</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');">
+                <div class="container">
+                    <div class="hero-content">
+                        <h2>Experience Timeless Luxury</h2>
+                        <p>Discover the epitome of elegance at Grand Hotel, where every detail is crafted for your comfort</p>
+                        <div class="hero-btns">
+                            <a href="rooms.html" class="btn-primary">Book Your Stay</a>
+                            <a href="rooms.html" class="btn-secondary">Explore Rooms</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');">
+                <div class="container">
+                    <div class="hero-content">
+                        <h2>Your Perfect Getaway Awaits</h2>
+                        <p>Indulge in our world-class amenities and impeccable service</p>
+                        <div class="hero-btns">
+                            <a href="rooms.html" class="btn-primary">Book Your Stay</a>
+                            <a href="amenities.html" class="btn-secondary">View Offers</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide-indicators"></div>
+    </section>
+
+    <!-- Booking Widget -->
+    <section class="booking-widget">
+        <div class="container">
+            <form class="booking-form">
+                <div class="form-group">
+                    <label for="check-in">Check In</label>
+                    <input type="date" id="check-in">
+                </div>
+                <div class="form-group">
+                    <label for="check-out">Check Out</label>
+                    <input type="date" id="check-out">
+                </div>
+                <div class="form-group">
+                    <label for="guests">Guests</label>
+                    <select id="guests">
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                        <option value="4+">4+ Guests</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-primary">Check Availability</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Welcome to Grand Hotel</h2>
+                <p class="section-subtitle">Where Tradition Meets Modern Luxury</p>
+                <p>Established in 1925, Grand Hotel has been a beacon of hospitality for nearly a century. Our historic property combines old-world charm with contemporary comforts to create an unforgettable experience for every guest.</p>
+                <p>Nestled in the heart of the city, we offer easy access to cultural landmarks while providing a tranquil retreat from the bustling streets.</p>
+                <a href="rooms.html" class="btn-secondary">Our Story</a>
+            </div>
+            <div class="about-image">
+                <img src="grand-lobby.jpg" alt="Grand Hotel Lobby" style="margin-top: 10px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section class="rooms-section">
+        <div class="container">
+            <h2 class="section-title">Our Rooms & Suites</h2>
+            <p class="section-subtitle">Designed for your comfort</p>
+            
+            <div class="rooms-grid">
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Deluxe Room">
+                    </div>
+                    <div class="room-details">
+                        <h3>Deluxe Room</h3>
+                        <p class="room-desc">Spacious accommodations with premium amenities</p>
+                        <div class="room-features">
+                            <span><i class="fas fa-bed"></i> King Bed</span>
+                            <span><i class="fas fa-ruler-combined"></i> 450 sq.ft.</span>
+                            <span><i class="fas fa-user-friends"></i> 2 Adults</span>
+                        </div>
+                        <div class="room-price">
+                            <span class="price">$299</span>
+                            <span class="per-night">/ night</span><br>
+                            <a href="rooms.html" class="btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="excutive-suite.jpg" alt="Executive Suite" style="margin-top: 10px;">
+                    </div>
+                    <div class="room-details">
+                        <h3>Executive Suite</h3>
+                        <p class="room-desc">Luxurious living with separate sitting area</p>
+                        <div class="room-features">
+                            <span><i class="fas fa-bed"></i> King Bed</span>
+                            <span><i class="fas fa-ruler-combined"></i> 750 sq.ft.</span>
+                            <span><i class="fas fa-user-friends"></i> 2 Adults</span>
+                        </div>
+                        <div class="room-price">
+                            <span class="price">$499</span>
+                            <span class="per-night">/ night</span> <br>
+                            <a href="rooms.html" class="btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Presidential Suite" style="margin-top: 10px;">
+                    </div>
+                    <div class="room-details">
+                        <h3>Presidential Suite</h3>
+                        <p class="room-desc">The ultimate in luxury and space</p>
+                        <div class="room-features">
+                            <span><i class="fas fa-bed"></i> 2 King Beds</span>
+                            <span><i class="fas fa-ruler-combined"></i> 1200 sq.ft.</span>
+                            <span><i class="fas fa-user-friends"></i> 4 Adults</span>
+                        </div>
+                        <div class="room-price">
+                            <span class="price">$899</span>
+                            <span class="per-night">/ night</span> <br>
+                            <a href="rooms.html" class="btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-footer">
+                <a href="rooms.html" class="btn-secondary" style="margin-top: 10px;">View All Accommodations</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section class="amenities-section">
+        <div class="container">
+            <h2 class="section-title">Hotel Amenities</h2>
+            <p class="section-subtitle">World-class facilities for your comfort</p>
+            
+            <div class="amenities-grid">
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-swimming-pool"></i>
+                    </div>
+                    <h3>Infinity Pool</h3>
+                    <p>Stunning rooftop pool with panoramic city views</p>
+                </div>
+                
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Spa & Wellness</h3>
+                    <p>Rejuvenating treatments in our luxury spa</p>
+                </div>
+                
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Fine Dining</h3>
+                    <p>Award-winning restaurants on property</p>
+                </div>
+                
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Fitness Center</h3>
+                    <p>24/7 access to state-of-the-art equipment</p>
+                </div>
+                
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3>High-Speed WiFi</h3>
+                    <p>Complimentary throughout the property</p>
+                </div>
+                
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-concierge-bell"></i>
+                    </div>
+                    <h3>24/7 Concierge</h3>
+                    <p>Personalized service for all your needs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Guest Reviews</h2>
+            <p class="section-subtitle">What our guests say about us</p>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="quote">"The Grand Hotel exceeded all our expectations. The service was impeccable, and our suite was breathtaking. We'll definitely be back!"</p>
+                        <div class="guest-info">
+                            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Sarah Johnson">
+                            <div>
+                                <h4>Sarah Johnson</h4>
+                                <p>New York, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="quote">"From the moment we arrived, we felt like royalty. The attention to detail is unmatched. The spa treatments were the best I've ever had."</p>
+                        <div class="guest-info">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen">
+                            <div>
+                                <h4>Michael Chen</h4>
+                                <p>London, UK</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="quote">"The perfect blend of historic charm and modern luxury. The location couldn't be better, and the staff went above and beyond."</p>
+                        <div class="guest-info">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Anna Rodriguez">
+                            <div>
+                                <h4>Anna Rodriguez</h4>
+                                <p>Madrid, Spain</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-indicators"></div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready for an Unforgettable Experience?</h2>
+                <p>Book your stay at Grand Hotel today and enjoy our exclusive welcome amenities</p>
+                <div class="cta-btns">
+                    <a href="rooms.html" class="btn-primary">Book Now</a>
+                    <a href="contact.html" class="btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Grand Hotel</h3>
+                    <p>123 Luxury Avenue<br>City Center, 10001<br>Country</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@grandhotel.com</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rooms.html">Rooms & Suites</a></li>
+                        <li><a href="dining.html">Dining</a></li>
+                        <li><a href="amenities.html">Amenities</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Cancellation Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                    <div class="newsletter">
+                        <h4>Subscribe to Our Newsletter</h4>
+                        <form>
+                            <input type="email" placeholder="Your Email Address">
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Grand Hotel. All Rights Reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="home.js"></script>
+</body>
+</html>

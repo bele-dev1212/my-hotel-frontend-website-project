@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms & Suites | Grand Hotel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">GRAND HOTEL</a></h1>
+                <p>Since 1925</p>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms.html" class="active">Rooms & Suites</a></li>
+                    <li><a href="dining.html">Dining</a></li>
+                    <li><a href="amenities.html">Amenities</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+            <a href="rooms.html" class="book-btn">Book Now</a>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Rooms & Suites</h1>
+            <p>Discover our luxurious accommodations designed for your comfort</p>
+        </div>
+    </section>
+
+    <!-- Rooms Filter -->
+    <section class="rooms-filter">
+        <div class="container">
+            <div class="filter-options">
+                <button class="filter-btn active" data-filter="all">All Rooms</button>
+                <button class="filter-btn" data-filter="suite">Suites</button>
+                <button class="filter-btn" data-filter="deluxe">Deluxe Rooms</button>
+                <button class="filter-btn" data-filter="executive">Executive Rooms</button>
+                <button class="filter-btn" data-filter="family">Family Rooms</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Grid -->
+    <section class="rooms-section">
+        <div class="container">
+            <div class="rooms-grid">
+                <!-- Deluxe Room -->
+                <div class="room-card" data-category="deluxe">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Deluxe Room">
+                        <div class="room-badge">Most Popular</div>
+                    </div>
+                    <div class="room-details">
+                        <h3>Deluxe Room</h3>
+                        <p class="room-desc">Spacious accommodations with premium amenities and stunning city views.</p>
+                        <div class="room-features">
+                            <span><i class="fas fa-bed"></i> King Bed</span>
+                            <span><i class="fas fa-ruler-combined"></i> 450 sq.ft.</span>
+                            <span><i class="fas fa-user-friends"></i> 2 Adults</span>
+                        </div>
+                        <div class="room-price">
+                            <span class="price">$299</span>
+                            <span class="per-night">/ night</span><br>
+                            <a href="deluxe-room.html" class="btn-primary"  >View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Executive Suite -->
+                <div class="room-card" data-category="executive">
+                    <div class="room-image">
+                        <img src="excutive-suite.jpg" alt="Executive Suite">
+                    </div>
+                    <div class="room-details">
+                        <h3>Executive Suite</h3>
+                        <p class="room-desc">Luxurious living with separate sitting area and enhanced business amenities.</p>
+                        <div class="room-features">
+                            <span><i class="fas fa-bed"></i> King Bed</span>
+                            <span><i class="fas fa-ruler-combined"></i> 750 sq.ft.</span>
+                            <span><i class="fas fa-user-friends"></i> 2 Adults</span>
+                        </div>
+                        <div class="room-price">
+                            <span class="price">$499</span>
+                            <span class="per-night">/ night</span> <br>
+                            <a href="executive-suite.html" class="btn-primary" >View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Presidential Suite -->
+                <div class="room-card" data-category="suite">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Presidential Suite">
+                        <div class="room-badge">Luxury</div>
+                    </div>
+                    <div class="room-details">
+                        <h3>Presidential Suite</h3>
+                        <p class="room-desc">The ultimate in luxury with expansive space and premium services included.</p>
+                        <div class="room-features">
+                            <span><i class="fas fa-bed"></i> 2 King Beds</span>
+                            <span><i class="fas fa-ruler-combined"></i> 1200 sq.ft.</span>
+                            <span><i class="fas fa-user-friends"></i> 4 Adults</span>
+                        </div>
+                        <div class="room-price">
+                            <span class="price">$899</span>
+                            <span class="per-night">/ night</span><br>
+                            <a href="presidential-suite.html" class="btn-primary" >View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Family Room -->
+                <div class="room-card" data-category="family">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Family Room">
+                    </div>
+                    <div class="room-details">
+                        <h3>Family Room</h3>
+                        <p class="room-desc">Spacious accommodations perfect for families with children.</p>
+                        <div class="room-features">
+                            <span><i class="fas fa-bed"></i> 1 King + 2 Singles</span>
+                            <span><i class="fas fa-ruler-combined"></i> 600 sq.ft.</span>
+                            <span><i class="fas fa-user-friends"></i> 2 Adults + 2 Children</span>
+                        </div>
+                        <div class="room-price">
+                            <span class="price">$399</span>
+                            <span class="per-night">/ night</span><br>
+                            <a href="family-room.html" class="btn-primary" >View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grand Deluxe Room -->
+                <div class="room-card" data-category="deluxe">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2089&q=80" alt="Grand Deluxe Room">
+                    </div>
+                    <div class="room-details">
+                        <h3>Grand Deluxe Room</h3>
+                        <p class="room-desc">Enhanced deluxe accommodations with premium views and amenities.</p>
+                        <div class="room-features">
+                            <span><i class="fas fa-bed"></i> King Bed</span>
+                            <span><i class="fas fa-ruler-combined"></i> 550 sq.ft.</span>
+                            <span><i class="fas fa-user-friends"></i> 2 Adults</span>
+                        </div>
+                        <div class="room-price">
+                            <span class="price">$349</span>
+                            <span class="per-night">/ night</span><br>
+                            <a href="grand-deluxe.html" class="btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Junior Suite -->
+                <div class="room-card" data-category="suite">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2187&q=80" alt="Junior Suite">
+                    </div>
+                    <div class="room-details">
+                        <h3>Junior Suite</h3>
+                        <p class="room-desc">Sophisticated suite with separate living area and premium amenities.</p>
+                        <div class="room-features">
+                            <span><i class="fas fa-bed"></i> King Bed</span>
+                            <span><i class="fas fa-ruler-combined"></i> 650 sq.ft.</span>
+                            <span><i class="fas fa-user-friends"></i> 2 Adults</span>
+                        </div>
+                        <div class="room-price">
+                            <span class="price">$449</span>
+                            <span class="per-night">/ night</span><br>
+                            <a href="junior-suite.html" class="btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Room Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">Room Amenities</h2>
+            <p class="section-subtitle">All our accommodations include these premium features</p>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-wifi"></i>
+                    <h3>High-Speed WiFi</h3>
+                    <p>Complimentary high-speed internet access throughout your stay</p>
+                </div>
+                
+                <div class="feature-item">
+                    <i class="fas fa-tv"></i>
+                    <h3>Smart TV</h3>
+                    <p>55" flat-screen with streaming services and international channels</p>
+                </div>
+                
+                <div class="feature-item">
+                    <i class="fas fa-mug-hot"></i>
+                    <h3>Tea/Coffee Maker</h3>
+                    <p>Premium coffee and tea selection refreshed daily</p>
+                </div>
+                
+                <div class="feature-item">
+                    <i class="fas fa-wind"></i>
+                    <h3>Climate Control</h3>
+                    <p>Individual temperature control for your comfort</p>
+                </div>
+                
+                <div class="feature-item">
+                    <i class="fas fa-lock"></i>
+                    <h3>Electronic Safe</h3>
+                    <p>In-room safe for your valuables</p>
+                </div>
+                
+                <div class="feature-item">
+                    <i class="fas fa-bath"></i>
+                    <h3>Luxury Bathroom</h3>
+                    <p>Marble bathrooms with premium toiletries</p>
+                </div>
+                
+                <div class="feature-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>24/7 Room Service</h3>
+                    <p>Round-the-clock dining options available</p>
+                </div>
+                
+                <div class="feature-item">
+                    <i class="fas fa-concierge-bell"></i>
+                    <h3>Personal Concierge</h3>
+                    <p>Dedicated service for all your needs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Special Offers Available</h2>
+                <p>Book your stay today and enjoy exclusive benefits and discounts</p>
+                <div class="cta-btns">
+                    <a href="rooms.html" class="btn-primary">View Offers</a>
+                    <a href="contact.html" class="btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Grand Hotel</h3>
+                    <p>123 Luxury Avenue<br>City Center, 10001<br>Country</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@grandhotel.com</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rooms.html">Rooms & Suites</a></li>
+                        <li><a href="dining.html">Dining</a></li>
+                        <li><a href="amenities.html">Amenities</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Cancellation Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                    <div class="newsletter">
+                        <h4>Subscribe to Our Newsletter</h4>
+                        <form>
+                            <input type="email" placeholder="Your Email Address">
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Grand Hotel. All Rights Reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="rooms.js"></script>
+</body>
+</html>
